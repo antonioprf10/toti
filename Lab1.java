@@ -1,6 +1,6 @@
 // This code is my own work. It was written without consulting code written by other students or code from online resources. Antonio Faria/
 
-public class Main {
+public class Lab1 {
     public static void main(String[] args) { int number=12; double weight=.25;
         String fruit="Apple";
         System.out.println("Number:"+number);
