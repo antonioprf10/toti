@@ -1,0 +1,37 @@
+/*
+ * Honor Code Statement: I affirm that I have not given or received any unauthorized help on this assignment,
+ * and that this work is my own.
+ * Name: Antonio Faria
+ */
+
+public class Main {
+
+    // Method to calculate how many cups of water are needed to fill the Mediterranean Sea
+    public static double cupsOfWater() {
+        double volumeCupOfWater = 240; // milliliters
+        double volumeMediterraneanSea = 3750000; // cubic kilometers
+        double volumeMediterraneanSeaConverted = volumeMediterraneanSea * 1e15; // convert to milliliters
+
+        return volumeMediterraneanSeaConverted / volumeCupOfWater;
+    }
+
+    // Method to calculate how many strands of spaghetti wrap around the Earth
+    public static double spaghettiStrands() {
+        double lengthSpaghettiStrand = 0.25; // meters
+        double earthCircumference = 40075 * 1000; // meters
+
+        return earthCircumference / lengthSpaghettiStrand;
+    }
+
+    public static void main(String[] args) {
+        // Question 1: How many cups of water to fill the Mediterranean Sea?
+        System.out.println("How many cups of water would it take to fill the Mediterranean Sea?");
+        double cups = cupsOfWater();
+        System.out.println("Answer: " + cups + " cups of water");
+
+        // Question 2: How many strands of spaghetti wrap around the Earth?
+        System.out.println("How many strands of spaghetti would it take to wrap around the Earth?");
+        double spaghetti = spaghettiStrands();
+        System.out.println("Answer: " + spaghetti + " strands of spaghetti");
+    }
+}
