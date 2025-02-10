@@ -32,15 +32,23 @@ public class ProblemSet1 {
     }
     
     public static void main(String[] args) {
-        // Example calls
+        // Test getAmerican
         System.out.println(getAmerican("Friday", 31, "January", 2025));
+        
+        // Test getEuropean
         System.out.println(getEuropean("Friday", 31, "January", 2025));
         
+        // Test secondsSinceMidnight
         int hour = 11, minute = 29, second = 15; // Example time values
         System.out.println(secondsSinceMidnight(hour, minute, second));
+        
+        // Test secondsLeftToday
         System.out.println(secondsLeftToday(hour, minute, second));
+        
+        // Test percentOfDayPassed
         System.out.println(percentOfDayPassed(hour, minute, second) + "%");
         
+        // Test multadd
         System.out.println(multadd(1.0, 2.0, 3.0));
         System.out.println(multadd(1.5, 2.0, 4.7));
         
